@@ -5,18 +5,16 @@
 // Typography
 
 p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 em,
 div,
 li,
 span,
 strong {
   color: var(--global-text-color);
+}
+
+p {
+  text-align: justify;
 }
 
 hr {
@@ -36,6 +34,7 @@ table {
 
 a,
 table.table a {
+  font-weight: normal;
   color: var(--global-theme-color);
 
   &:hover {
@@ -198,11 +197,11 @@ ul.task-list input[type="checkbox"] {
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .profile.float-left {
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 @media (min-width: 576px) {
@@ -215,6 +214,13 @@ ul.task-list input[type="checkbox"] {
       }
     }
   }
+}
+
+.desc {
+  font-family: italic;
+  font-weight: normal;
+  font-size: medium;
+  padding-bottom: 1rem;
 }
 
 .post-description {
@@ -457,6 +463,21 @@ footer.sticky-bottom {
   }
 }
 
+// TEACHING
+.teaching {
+  font-weight: lighter;
+
+    a {
+      color: var(--global-text-color);
+
+      &:hover {
+        color: var(--global-theme-color);
+        font-weight: normal;
+        text-decoration: underline;
+      }
+    }
+}
+
 // CV
 
 .cv {
@@ -465,6 +486,17 @@ footer.sticky-bottom {
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
+
+    a {
+      font-weight: lighter;
+      color: var(--global-text-color);
+
+      &:hover {
+        color: var(--global-theme-color);
+        font-weight: normal;
+        text-decoration: underline;
+      }
+    }
 
     .list-group-item {
       background-color: inherit;
@@ -810,6 +842,14 @@ footer.sticky-bottom {
       }
 
       div.abstract.hidden.open {
+        border-color: var(--global-text-color);
+      }
+
+      div.tldr.hidden {
+        border: dashed 1px var(--global-bg-color);
+      }
+
+      div.tldr.hidden.open {
         border-color: var(--global-text-color);
       }
     }

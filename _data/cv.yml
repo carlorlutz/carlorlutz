@@ -2,96 +2,82 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Carl O. R. Lutz
     - name: Languages
       value: English, German
+    - name: Fields of Interest
+      value: Hyperbolic Geometry, Differential Geometry, Low Dimensional Topology
+
+- title: Academic Position
+  type: time_table
+  contents:
+    - title: Teaching and Research Assistent ("WiMi")
+      institution: '<a href="https://tu.berlin/en">TU Berlin, Germany</a>'
+      year: 2018 - Present
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Dr in Mathematics
+      institution: '<a href="https://tu.berlin/en">TU Berlin, Germany</a>'
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - 'Supervisor: <a href="https://page.math.tu-berlin.de/~bobenko/">Alexander I. Bobenko</a>'
+        - 'Thesis: <a href="https://doi.org/10.14279/depositonce-20357">Decorated Discrete Conformal Equivalence, Canonical Tessellations, and Polyhedral Realization</a>'
+    - title: MSc in Mathematics
+      institution: '<a href="https://tu.berlin/en">TU Berlin, Germany</a>'
+      year: 2018
+    - title: BSc in Mathematics
+      institution: '<a href="https://tu.berlin/en">TU Berlin, Germany</a>'
+      year: 2017
 
-- title: Experience
+- title: Academic Experiences
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Investigater in the <a href="https://www.discretization.de" style="font-weight:bold;">DFG research center SFB/TRR 109</a>
+      institution: 
+      year: 2018 - 2024
+      maindescription:
+        - '<a href="https://www.discretization.de/projects/A01/">Project A01: "Discrete Riemann Surfaces"</a>'
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Selected Talks
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Decorated Discrete Conformal Equivalence
+      year: 2024-05-28
+      location: Berlin, Germany
+      department: '<a href="https://www.discretization.de/events/103/">Conference: Discrete Differential Geometry and Dimers 2024</a>'
 
-- title: Honors and Awards
+    - title: Decorated Discrete Conformal Maps and Convex Polyhedral Cusps
+      year: 2023-08-03
+      location: '<a href="https://www.birs.ca">BIRS, Banff, Canada</a>'
+      department: '<a href="https://www.birs.ca/events/2023/5-day-workshops/23w5015">BIRS workshop: 23w5015</a>'
+
+    - title: Decorated Discrete Conformal Maps and Convex Polyhedral Cusps
+      year: 2023-05-19
+      location: '<a href="https://www.rutgers.edu">Rutgers University</a>'
+      department: '<a href="https://sites.google.com/view/yanwenluo/workshop">FRG Workshop: Discrete and Comput. Geom., Shape Anal. and Appl.</a>'
+
+    - title: Canonical Tessellations of Decorated Hyperbolic Surfaces
+      year: 2022-09-02
+      location: '<a href="https://www.tuwien.at">TU Vienna</a>'
+      department: '<a href="https://www.geometrie.tuwien.ac.at/ig/events/dgs2022/">Workshop: Discrete Geometric Structures 2022</a>'
+
+- title: Community Service
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Member of the Institute Council
+      institution: '<a href="https://www.tu.berlin/en/math">Inst. Math., TU Berlin, Germany</a>'
+      year: 2022 - Present
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: 'Organization of a math <a href="http://didaktik.mathematik.hu-berlin.de/de/schule/msg-schuelergesellschaft" style="font-weight:bold;">circle in the MSG "Leonhard Euler"</a>'
+      year: 2019 - 2023
+      maindescription:
+        - Weekly "math club" for students, (7 - 10 grade)
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: 'DGD-Calender (editorial work)'
+      year: 2020 - 2024
+      maindescription:
+        - 'Visual presentation of research of the <a href="https://www.discretization.de">SFB/TRR 109</a>'
+      description:
+        - 'Samples: <a href="https://www.discretization.de/gallery/model/117/">year 2021</a>, <a href="https://www.discretization.de/gallery/model/118/">year 2022</a>, <a href="https://www.discretization.de/gallery/model/119/">year 2023</a>, <a href="https://www.discretization.de/gallery/model/120/">year 2024</a>'
